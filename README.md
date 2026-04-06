@@ -1,4 +1,4 @@
-# Natural Language Processing — Mazzei
+# Natural Language Processing: Mazzei
 
 University project for the *Tecnologie del Linguaggio Naturale* course, taught by **Prof. Mazzei** at the University of Turin.
 
@@ -12,11 +12,11 @@ Implementation of the **Viterbi algorithm** (based on Hidden Markov Models) for 
 
 The project covers the full HMM pipeline:
 
-1. **Modelling** — formal definition of the HMM for PoS tagging
-2. **Learning** — estimating the **transition matrix** (tag → tag) and **emission matrix** (tag → word) from the training corpus
-3. **Decoding** — Viterbi algorithm to find the most likely tag sequence for new sentences
-4. **Smoothing** — handling unseen words/transitions (sparse matrix problem, especially in morphologically rich languages)
-5. **Baseline** — most-frequent-tag baseline for comparison
+1. **Modelling**: formal definition of the HMM for PoS tagging
+2. **Learning**: estimating the **transition matrix** (tag → tag) and **emission matrix** (tag → word) from the training corpus
+3. **Decoding**: Viterbi algorithm to find the most likely tag sequence for new sentences
+4. **Smoothing**: handling unseen words/transitions (sparse matrix problem, especially in morphologically rich languages)
+5. **Baseline**: most-frequent-tag baseline for comparison
 
 Evaluated separately on **Ancient Greek** (`grc_perseus-ud`) and **Latin** (`la_llct-ud`).
 
@@ -48,9 +48,9 @@ A written report is included: `Relazione Parisi Matteo - PoS Tagging per Latino 
 
 ## Related repos
 
-- [NLP — Radicioni](https://github.com/teoparis/Tecnologie-del-linguaggio-naturale---Radicioni)
-- [NLP — Di Caro](https://github.com/teoparis/Tecnologie-del-linguaggio-naturale---Di-Caro)
+- [NLP: Radicioni](https://github.com/teoparis/Tecnologie-del-linguaggio-naturale---Radicioni)
+- [NLP: Di Caro](https://github.com/teoparis/Tecnologie-del-linguaggio-naturale---Di-Caro)
 
 ---
 
-*University project — Tecnologie del Linguaggio Naturale, University of Turin, 2022–2023*
+*University project, Tecnologie del Linguaggio Naturale, University of Turin, 2022–2023*
