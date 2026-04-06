@@ -39,7 +39,7 @@ CoNLL-U format corpora from [Universal Dependencies](https://universaldependenci
 
 ```bash
 pip install numpy jupyter
-jupyter notebook "PoS Tagging Viterbi (Latino & Greco).ipynb"
+jupyter notebook "pos_tagging_viterbi.ipynb"
 ```
 
 ## Report
